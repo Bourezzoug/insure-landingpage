@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body{
+    font-family: 'Karla', sans-serif;
+}
+h1,h2,h3,
+h4,h5,h6{
+    font-family: 'DM Serif Display', serif;
+}
+.toggle .l1{
+    transform: rotate(-45deg) translate(-4px,4px);
+  }
+  .toggle .l2{
+    opacity: 0;
+  }
+  .toggle .l3{
+    transform: rotate(45deg) translate(-4px,-4px);
+  }
+
+@media screen and (min-width:768px) {
+    #hero{
+      height: 39rem;
+    }
+    #hero .info::after,
+    #about h2::after{
+      content: "";
+      position: absolute;
+      top:0;
+      height: 2px;
+      width: 12rem;
+    }
+    #hero .info::after{
+      background-color: #fff;
+      left: 1.5rem;
+    }
+    #about h2::after{
+      left:0;
+      background-color: hsl(256 26% 20% );
+    }
+}
+

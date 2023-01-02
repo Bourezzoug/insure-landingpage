@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-white">
+        <nav class="container mx-auto p-6 flex justify-between items-center relative ">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <div class="links h-96 w-auto px-20 md:px-0 md:h-full z-10 flex space-x-6 hidden md:block absolute md:static top-16 md:top-0 text-center md:text-left bg-dark-violet md:bg-white justify-around flex-col md:flex-row">
+                    <a href="#" class="md:text-grayish-blue text-white md:hover:text-dark-violet transition-all">HOW WE WORK</a>
+                    <a href="#" class="md:text-grayish-blue text-white md:hover:text-dark-violet transition-all">BLOG</a>
+                    <a href="#" class="md:text-grayish-blue text-white md:hover:text-dark-violet transition-all">ACCOUNT</a>
+                    <button><a href="#" class="px-5 py-2 border border-white md:border-dark-violet text-white md:text-dark-violet hover:bg-white hover:text-dark-violet md:hover:bg-dark-violet md:hover:text-white transition-all">VIEW PLANS</a></button>
+                </div>
+                <div class="burger cursor-pointer block md:hidden">
+                    <div class="l1 bg-dark-violet w-6 h-0.5 rounded m-1 transition-all"></div>
+                    <div class="l2 bg-dark-violet w-6 h-0.5 rounded m-1 transition-all"></div>
+                    <div class="l3 bg-dark-violet w-6 h-0.5 rounded m-1 transition-all"></div>
+                </div>
+        </nav>
+    </header>
+    <section id="hero" class="bg-dark-violet relative">
+            <div class="container mx-auto md:p-6 flex flex-col-reverse md:flex-row  justify-between md:py-36">
+                <div class="info text-white md:w-1/2 text-center md:text-left relative p-6 relative">
+                    <h1 class="max-w-md text-6xl pt-10 pb-5 relative z-10">Humanizing your insurance.</h1>
+                    <p class="max-w-md font-light">Get your life insurance coverage easier and faster. We blend our expertise 
+                        and technology to help you find the plan that’s right for you. Ensure you 
+                        and your loved ones are protected.
+                    </p>
+                    <button class="z-10 relative my-5 py-2 border px-5 border-grayish-blue hover:bg-white hover:text-dark-violet transition-all"><a href="#">VIEW PLANS</a></button>
+                    <img src="images/bg-pattern-intro-left-mobile.svg"  class="absolute  top-0 block md:hidden left-0 " alt="">
+                </div>
+                <div class="pic w-full md:w-1/2">
+                    <img src="images/image-intro-desktop.jpg" alt="">
+                </div>
+            </div>
+            <img src="images/bg-pattern-intro-right-desktop.svg" class="absolute top-0 hidden md:block right-0" alt="">
+            <img src="images/bg-pattern-intro-left-desktop.svg"  class="absolute w-44 -bottom-72 hidden md:block left-0 " alt="">
+            <img src="images/bg-pattern-intro-right-mobile.svg"  class="absolute -bottom-44 block md:hidden right-0 " alt="">
+    </section>
+    <section id="about" class="md:mt-72">
+        <div class="container mx-auto md:p-6">
+            <h2 class="text-6xl font-semibold text-dark-violet relative pt-10 md:pb-20 pb-16 text-center md:text-left">We’re different</h2>
+            <div class="md:grid grid-cols-3 gap-20">
+                <div class="column my-20 text-center md:text-left">
+                    <span class="text-3xl px-5 py-4 bg-grayish-blue text-white rounded-full"><i class="fa-solid fa-bolt"></i></span>
+                    <h3 class="text-4xl pt-9 pb-5 text-dark-violet">Snappy Process</h3>
+                    <p class="md:max-w-sm px-5 md:px-0 text-grayish-blue">Our application process can be completed in minutes, not hours. Don’t get 
+                        stuck filling in tedious forms.
+                    </p>
+                </div>
+                <div class="column my-20 text-center md:text-left">
+                    <span class="text-3xl px-6 py-4 bg-grayish-blue text-white rounded-full"><i class="fa-solid fa-dollar-sign"></i></span>
+                    <h3 class="text-4xl pt-9 pb-5 text-dark-violet">Affordable Prices</h3>
+                    <p class="md:max-w-sm px-5 md:px-0 text-grayish-blue">We don’t want you worrying about high monthly costs. Our prices may be low, 
+                        but we still offer the best coverage possible.
+                    </p>
+                </div>
+                <div class="column my-20 text-center md:text-left">
+                    <span class="text-3xl px-5 py-4 bg-grayish-blue text-white rounded-full"><i class="fa-solid fa-user"></i></span>
+                    <h3 class="text-4xl pt-9 pb-5 text-dark-violet">People First</h3>
+                    <p class="md:max-w-sm px-5 md:px-0 text-grayish-blue">Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+                        sure you’re covered when you need it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="container mx-auto p-6 bg-dark-violet w-5/6 md:w-3/4 flex flex-col md:flex-row justify-between items-center bg-dark-violet p-16 relative overflow-hidden ">
+        <h2 class="mb-10 sm:mb-0 text-4xl md:max-w-sm font-semibold text-light-gray relative z-10 text-center md:text-left">Find out more about how we work</h2>
+        <button class="border border-white text-light-gray  px-6 py-3 z-10 border border-white hover:bg-white hover:text-dark-violet transition-all mt-16 md:mt-0">HOW WE WORK</button>
+        <img src="images/bg-pattern-how-we-work-desktop.svg" class="hidden md:inline-block absolute -right-5 top-0" alt="">
+        <img src="images/bg-pattern-how-we-work-mobile.svg"  class='inline-block md:hidden absolute top-0 right-0'  />
+    </section>
+
+    <footer class='bg-light-gray mt-16 p-5 relative'>
+        <img src="images/bg-pattern-footer-desktop.svg" alt="" class='hidden sm:inline-block absolute top-0 left-0'  />
+        <img src="images/bg-pattern-footer-mobile.svg" alt="" class=' inline-block sm:hidden absolute top-0 left-0 w-full' />
+        <div class='container mx-auto mt-32 p-6'>
+        <div class="socials flex flex-col md:flex-row justify-between items-center">
+            <img src="images/logo.svg" class="relative" alt="" />
+            <div class="icons mt-5 md:mt-0">
+                <i class="fa-brands fa-facebook-f text-2xl mx-2 text-grayish-blue cursor-pointer hover:text-dark-violet transition-all"></i>
+                <i class="fa-brands fa-twitter text-2xl mx-2 text-grayish-blue cursor-pointer hover:text-dark-violet transition-all"></i>
+                <i class="fa-brands fa-pinterest text-2xl mx-2 text-grayish-blue cursor-pointer hover:text-dark-violet transition-all"></i>
+                <i class="fa-brands fa-instagram text-2xl mx-2 text-grayish-blue cursor-pointer hover:text-dark-violet transition-all"></i>
+            </div>
+        </div>
+        <hr class='my-6 bg-grayish-blue border-grayish-blue'/>
+        <div class="infos flex flex-col md:flex-row text-center md:text-left justify-between items-center">
+            <div class="company  mb-6 md:mb-0">
+                <h4 class='text-dark-grayish-violet pb-5'>OUR COMPANY</h4>
+                <ul>
+                    <li><a href="#" class="hover:underline">HOW WE WORK</a></li>
+                    <li><a href="#" class="hover:underline">WHY INSURE?</a></li>
+                    <li><a href="#" class="hover:underline">VIEW PLANS</a></li>
+                    <li><a href="#" class="hover:underline">REVIEWS</a></li>
+                </ul>
+            </div>
+            <div class="faq  mb-6 md:mb-0">
+            <h4 class='text-dark-grayish-violet pb-5'>HELP ME</h4>
+                <ul>
+                    <li><a href="#" class="hover:underline">FAQ</a></li>
+                    <li><a href="#" class="hover:underline">TERMS OF USE</a></li>
+                    <li><a href="#" class="hover:underline">PRIVACY POLICY</a></li>
+                    <li><a href="#" class="hover:underline">COOKIES</a></li>
+                </ul>
+            </div>
+            <div class="contact  mb-6 md:mb-0">
+            <h4 class='text-dark-grayish-violet pb-5'>CONTACT</h4>
+                <ul>
+                    <li><a href="#" class="hover:underline">SALES</a></li>
+                    <li><a href="#" class="hover:underline">SUPPORT</a></li>
+                    <li><a href="#" class="hover:underline">LIVE CHAT</a></li>
+                </ul>
+            </div>
+            <div class="others">
+            <h4 class='text-dark-grayish-violet pb-5'>OTHERS</h4>
+                <ul>
+                    <li><a href="#">CAREERS</a></li>
+                    <li><a href="#">PRESS</a></li>
+                    <li><a href="#">LICENSES</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
